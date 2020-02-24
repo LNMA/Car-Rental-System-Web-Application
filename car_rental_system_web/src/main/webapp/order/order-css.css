@@ -1,0 +1,176 @@
+.addOrderBody{
+    background-image: url("./img/rent-wallpaper.jpg");
+    background-size: 100%,100%;
+}
+
+.addOrdersheet{
+    margin: 0px 20% 0px 0px;
+    border-radius: 1em 1em 1em ;
+    width: 60%;
+    height: 600px;
+    background-color: white;
+    text-align: center;
+    float: right;
+}
+
+.label{
+    font-size: 20px;
+}
+
+.labelSmall{
+    font-size: 16px;
+}
+
+
+.txtNormal{
+    width: 175px;
+    height: 35px;
+    border-radius: 1em 1em 1em;
+}
+
+.txtBig{
+    width: 300px;
+    height: 40px;
+    border-radius: 1em 1em 1em;
+}
+
+#addOrderTable{
+    text-align: center;
+    padding-left: 2%;
+    position: absolute;
+}
+
+.sub{
+    width: 300px;
+    height: 60px;
+    border-radius: 3em 3em 3em;
+    background: linear-gradient(to right,#ff9900,#ffff00,#999999);
+    color: #333333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.back{
+    width: 600px;
+    height: 60px;
+    border-radius: 3em 3em 3em;
+    background: linear-gradient(to right,#999999,#ffffff,#ff3333);
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.resultBody{
+    background-color: #cdcdcd;
+    text-align: center;
+}
+
+.resultSection{
+    margin-left: 10%; 
+    margin-top: 2%;
+    background-color: white;
+    text-align: center;
+    width: 80%;
+    height: 1100px;
+
+}
+
+#headResult{
+    text-align: center;
+    float: right;
+    font-size: 50px;
+    color: white;
+    background-color: #ff3333;
+    font-weight: bolder;
+    font-family: cursive;
+    padding-top: 20px;
+    width: 350px;
+    height: 80px;
+}
+
+#invt1{
+    width: 100%;
+    text-align: center;
+}
+
+.tdCar{
+    text-align: left;
+    padding-left: 220px;
+}
+
+#ruler{
+    width: 100%;
+    height: 50px;
+    background-color: #ff3333;
+}
+
+#cartable{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.cartd{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.billTable{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    border: 2px solid #000000;
+    
+}
+
+#thBill1{
+    border-bottom: 2px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+#thBill2{
+    border-bottom: 2px solid #000000;
+    text-align: right;
+    padding: 8px;
+}
+
+.tdBill1{
+     border-bottom: 1px dashed #000000;
+    text-align: left;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.tdBill2{
+     border-bottom: 1px dashed #000000;
+    text-align: right;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.tdBill3{
+    text-align: left;
+    font-weight: bolder;
+    color: white;
+    background-color: #ff3333;
+    padding: 25px;
+    width: 50%;
+    padding-right: 100px;
+}
+
+#endResultBody{
+    margin-top: 15%;
+    width: 32%;
+    height: 100px;
+    background-color: #ff3333;
+}
+
+.alltr:nth-child(even) {
+    background-color: #bdbcbc;
+}

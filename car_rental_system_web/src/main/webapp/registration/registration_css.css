@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+.bodyReg{  
+    background-image: url("./img/registration.png");
+    background-size: 100%,100%;
+    font-family: fantasy;
+}
+
+.form{
+    width: 35%;
+    height: 600px;
+    margin: 75px 32%;
+    background-color: white;
+    text-align: center;
+    border-radius: 3% 3%;
+}
+
+.formUp{
+    width: 62%;
+    height: auto;
+    margin: 25px 18%;
+    background-color: white;
+    text-align: center;
+    border-radius: 3% 3%;
+}
+
+.login{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.label{
+    font-size: 20px;
+}
+
+
+.txt{
+    width: 350px;
+    height: 40px;
+    border-radius: 1em 1em 1em;
+}
+
+.txtup{
+    width: 250px;
+    height: 40px;
+    border-radius: 1em 1em 1em;
+}
+
+.selectGender{
+    width: 175px;
+    height: 40px;
+    border-radius: 1em 1em 1em;
+}
+
+.selectDate{
+    width: 75px;
+    height: 40px;
+    border-radius: 1em 1em 1em;
+}
+
+
+.sub{
+    width: 300px;
+    height: 60px;
+    border-radius: 3em 3em 3em;
+    background: linear-gradient(to right,#e759fd,#206490,#88c7f0);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}

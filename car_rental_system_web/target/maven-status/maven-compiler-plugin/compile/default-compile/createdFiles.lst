@@ -1,0 +1,9 @@
+referance\OrderReference.class
+connection\SBE.class
+com\mycompany\car_rental_system_web\registration\database\Massage.class
+registration\SignInRef.class
+referance\NormalMassageReference.class
+database\Account.class
+referance\CarReference.class
+referance\UserReference.class
+referance\AdministrativeMassageReference.class

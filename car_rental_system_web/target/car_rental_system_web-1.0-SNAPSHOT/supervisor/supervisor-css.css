@@ -1,0 +1,270 @@
+#bodyRoot{
+    background-image: url("./img/supervisor.jpg");
+    background-size: 100%,100%;
+    font-family: fantasy;
+}
+
+#headerRoot{
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    border-radius: 1em 1em 1em ;
+    opacity: 0.9;
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+
+#navRoot{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 1em 1em 1em ;
+    opacity: 0.95;
+    position: relative;
+    text-align: center;
+}
+
+#welcome{
+    float: right;
+    padding: 8px 25px 0px 0px;
+}
+
+.profile{
+    background-image: url("./img/profile.png");
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+    border: 1px solid #666666;
+    cursor: pointer;
+    width: 65px;
+    height: 65px;
+    border-radius: 50% 50%;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+}
+
+.dropdown{
+    float: left;
+    padding-left:  25px;
+    padding-top:  7px;
+}
+
+.dropdown-content input {
+    color: black;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    z-index: 2;
+}
+
+.dropdown-content input:hover {
+    background-color: #999999;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+dropdown:hover .profile {
+    background-color: #333333;
+}
+
+
+.option{
+    width: 250px;
+    height: 45px;
+    font-size: 30px;
+    color: #000000;
+    background-color: #6666ff;
+    font-weight: bold;
+
+}
+
+#tableNav{
+    text-align: center;
+    border-width: 270px;
+    margin: 0px 21%;
+}
+
+#tableNav2{
+    text-align: center;
+    border-width: 270px;
+    margin: 0px 12%;
+}
+
+#tableSelectType{
+    text-align: center;
+    border-width: 270px;
+    margin: 0px 37%;
+}
+
+
+.asideRoot{
+    width: 24%;
+    height: 600px;
+    margin: 25px 0px 0px 0px;
+    background-color: #ebebeb;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    float: left;
+    overflow: scroll;
+
+}
+
+.ulCar{
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sectionRoot{
+    margin: 25px 0px 0px 0px;
+    border-radius: 1em 1em 1em ;
+    width: 75%;
+    height: 600px;
+    background-color: white;
+    text-align: center;
+    float: right;
+}
+
+.label{
+    font-size: 16px;
+}
+
+.labelBig{
+    font-size: 20px;
+}
+
+.labelEdit{
+    font-size: 20px;
+}
+
+.txt{
+    width: 175px;
+    height: 40px;
+    border-radius: 1em 1em 1em;
+}
+
+.txtBig{
+    width: 300px;
+    height: 40px;
+    border-radius: 1em 1em 1em;
+}
+
+.txtEdit{
+    width: 300px;
+    height: 40px;
+    border-radius: 1em 1em 1em;
+}
+
+.sub{
+    width: 300px;
+    height: 60px;
+    border-radius: 3em 3em 3em;
+    background: linear-gradient(to right,#ff9797,#4585ae,#9999ff);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.back{
+    width: 300px;
+    height: 60px;
+    border-radius: 3em 3em 3em;
+    background: linear-gradient(to right,#999999,#ffffff,#ff3333);
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#showAllCarBody{
+    background-color: #d8d8d8;
+}
+
+#allCarTable{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.alltd{
+    border: 1px solid #9999ff;
+    text-align: left;
+    padding: 8px;
+}
+
+.alltr:nth-child(even) {
+    background-color: #333333;
+    color: white;
+}
+
+.tableAge{
+    margin: 0px 25%;
+}
+
+.minimize{
+    border-radius: 50% 50%;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    margin-top: 8%;
+    margin-left: 40%;
+}
+
+.minimizeInfoEdit{
+    border-radius: 50% 50%;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+}
+
+.minimize1{
+    border-radius: 50% 50%;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    margin-top: 7%;
+}
+
+.sectionClient{
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 1em 1em 1em ;
+    width: 90%;
+    height: 600px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.informationTable{
+    text-align: left;
+    margin-left: 1%;
+    border-spacing: 25px;
+}
+
+.infoEditTable{
+    text-align: left;
+    margin-left: 8%;
+    border-spacing: 25px;   
+}
+
+.txtBolder{
+    width: 300px;
+    height: 40px;
+    border-radius: 1em 1em 1em;
+    font-weight: bold;
+    font-size: 18px;
+}

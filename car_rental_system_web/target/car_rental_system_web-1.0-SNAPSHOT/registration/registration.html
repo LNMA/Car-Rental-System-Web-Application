@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<style>
+	    @import url(registration_css.css);
+	</style>
+	<script src="registration_js.js"></script>
+    </head>
+    <body class="bodyReg">
+	<div class="form">
+	    <form action="redirection.jsp" method="post" name="signInform" onsubmit="return validateForm()" >
+		<br>
+		<p class="login">
+		    Login
+		</p>
+		<br>
+		<p class="label">
+		    Username
+		</p>
+		<input type="text" name="username" maxlength="30" placeholder="                           Type your username" class="txt"  required />
+		<p class="label">
+		    password
+		</p>
+		<input type="password" name="password" maxlength="30" placeholder="                           Type your password" class="txt" required/>
+		<br>
+		<br>
+		<br>
+		<br>
+		<input type="submit" class="sub" value="Sign in" />
+	    </form>
+	    <br>
+	    <p>
+		If You Did Not Have An Account Use
+	    </p>
+	    <p>
+		<a href="signUp_jsp.jsp">Sign Up</a>
+	    </p>
+	</div>
+    </body>
+</html>

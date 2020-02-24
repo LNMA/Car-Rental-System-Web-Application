@@ -1,5 +1,5 @@
 # Car-Rental-System-Web-Application
-program future review :
+#program future review :
 1.Apache Maven used to build this project. 
 
 2.Three type of user :root, supervisor, customer. 
@@ -43,7 +43,7 @@ program future review :
 25.I tried to handle major exception that I except it. 26.And many more …………………          
 
 
-you have two way to run program : 
+#you have two way to run program : 
 1.before all make sure you have mysql database . 
 
 2.then import dumps that attachment. 
